@@ -478,7 +478,16 @@ footer p{
 
 @media (max-width:600px){
 	.navbar{
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
+	}
+	a.navbar-brand{
+		width: 200px;
+	}
+	header ul{
+		margin-top: 5%;
+	}
+	.btn-icon{
+		font-size: 20px;
 	}
 	header input, button{
 		margin-top: 0;
@@ -488,7 +497,7 @@ footer p{
 		background-image: url("../img/fondo-nav.jpg");
 	}
 	.logo-borreguitos{
-		width: 10%;
+		width: 15%;
 		margin-right: 0;
 	}
 	.carousel .carousel-item {
@@ -499,7 +508,7 @@ footer p{
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 0;
+    min-height: 100%;
 	}
 	.carousel-control-next, .carousel-control-prev {
    		top: 25% !important;
