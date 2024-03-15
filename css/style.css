@@ -499,15 +499,15 @@ footer p{
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 0px;
+    min-height: 0;
 	}
 	.carousel-control-next, .carousel-control-prev {
-   		top: 50px !important;
+   		top: 25% !important;
 		height: 100px;
 		width: 8%;
 	}
 	.carousel-indicators{
-		top: 160px;
+		top: 85%;
 		height: 20px;
 		margin-bottom: 0;
 	}
